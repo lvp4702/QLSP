@@ -1,0 +1,102 @@
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: var(--primary);
+    color: white;
+    padding: 13px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.button:hover {
+    opacity: 0.8;
+    box-shadow: #ccc 0 0 1px 0.8px;
+}
+
+.btn_cancel {
+    width: auto;
+    background-color: #f44336;
+}
+
+.container_top {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.container_top p {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.container {
+    padding: 24px;
+}
+
+.container label {
+    font-size: 1.3rem;
+}
+
+.container p {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+.container p a {
+    text-decoration: underline;
+}
+
+.psw a {
+    float: right;
+    padding-top: 20px;
+    font-size: 1.3rem;
+    color: var(--primary);
+}
+
+.modal_login_signup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_content {
+    position: absolute;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
